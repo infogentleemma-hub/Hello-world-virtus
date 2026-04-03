@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtus Equipment's Ltd | Premium Industrial Equipment Nigeria</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .rolex-green { color: #127331; }
+        .bg-rolex-green { background-color: #127331; }
+        .border-rolex-green { border-color: #127331; }
+        .bg-rolex-pink { background-color: #FFD1DC; }
+    </style>
+</head>
+<body class="bg-white">
+
+    <nav class="flex justify-between items-center px-8 py-6 sticky top-0 bg-white/90 backdrop-blur-md z-50 shadow-sm">
+        <div class="text-2xl font-extrabold tracking-tighter bg-rolex-green text-white px-3 py-1">VIRTUS</div>
+        <div class="hidden md:flex space-x-8 font-semibold text-gray-700">
+            <a href="#featured" class="hover:text-[#127331]">Featured</a>
+            <a href="#categories" class="hover:text-[#127331]">Categories</a>
+            <a href="#about" class="hover:text-[#127331]">About</a>
+        </div>
+        <a href="https://wa.me/2348104209652" class="bg-rolex-pink text-[#127331] px-6 py-2 rounded-full font-bold shadow-sm hover:scale-105 transition-transform">WhatsApp Us</a>
+    </nav>
+
+    <section class="bg-rolex-green text-white py-20 px-8 text-center">
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-6">Powering Nigeria's <br><span class="text-[#FFD1DC]">Food Leaders.</span></h1>
+        <p class="text-xl opacity-90 max-w-2xl mx-auto mb-10">Industrial-grade bakery, kitchen, and supermarket equipment. Built for reliability. Delivered nationwide.</p>
+        <div class="flex flex-col md:flex-row justify-center gap-4">
+            <a href="#featured" class="bg-white text-[#127331] px-10 py-4 rounded-xl font-bold text-lg">View Featured Gear</a>
+            <a href="https://wa.me/2348104209652" class="border-2 border-[#FFD1DC] text-[#FFD1DC] px-10 py-4 rounded-xl font-bold text-lg">Request Price List</a>
+        </div>
+    </section>
+
+    <section id="featured" class="py-20 px-8 max-w-7xl mx-auto">
+        <h2 class="text-3xl font-extrabold text-[#127331] mb-12 border-l-4 border-rolex-pink pl-4">Featured Equipment</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="group border border-[#127331]/20 p-6 rounded-3xl hover:border-rolex-green transition-all bg-white shadow-sm hover:shadow-xl">
+                <div class="h-64 bg-gray-50 rounded-2xl mb-6 flex items-center justify-center overflow-hidden">
+                    <span class="text-gray-400 italic text-sm text-center px-4"></span>
+                </div>
+                <h3 class="text-2xl font-bold text-[#127331] mb-2">3 Deck 9 Tray Oven</h3>
+                <p class="text-gray-600 mb-6">Master the perfect crust with precision stone-base heating. Built for high-volume bakeries.</p>
+                <a href="https://wa.me/2348104209652" class="block text-center bg-rolex-pink text-[#127331] py-3 rounded-xl font-extrabold">Price on WhatsApp</a>
+            </div>
+
+            <div class="group border border-[#127331]/20 p-6 rounded-3xl hover:border-rolex-green transition-all bg-white shadow-sm hover:shadow-xl">
+                <div class="h-64 bg-gray-50 rounded-2xl mb-6 flex items-center justify-center overflow-hidden">
+                    <span class="text-gray-400 italic text-sm text-center px-4"></span>
+                </div>
+                <h3 class="text-2xl font-bold text-[#127331] mb-2">Premium Shelving</h3>
+                <p class="text-gray-600 mb-6">Heavy-duty load capacity with a sleek international finish. Optimize your retail space.</p>
+                <a href="https://wa.me/2348104209652" class="block text-center bg-rolex-pink text-[#127331] py-3 rounded-xl font-extrabold">Request Catalog</a>
+            </div>
+
+            <div class="group border border-[#127331]/20 p-6 rounded-3xl hover:border-rolex-green transition-all bg-white shadow-sm hover:shadow-xl">
+                <div class="h-64 bg-gray-50 rounded-2xl mb-6 flex items-center justify-center overflow-hidden">
+                    <span class="text-gray-400 italic text-sm text-center px-4"></span>
+                </div>
+                <h3 class="text-2xl font-bold text-[#127331] mb-2">Industrial Cookers</h3>
+                <p class="text-gray-600 mb-6">High-pressure burners for fast-paced commercial kitchens. Stainless steel durability.</p>
+                <a href="https://wa.me/2348104209652" class="block text-center bg-rolex-pink text-[#127331] py-3 rounded-xl font-extrabold">Inquire Now</a>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/2348104209652" class="fixed bottom-8 right-8 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform z-50">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.888 11.888-11.888 3.176 0 6.161 1.237 8.404 3.48s3.481 5.229 3.481 8.404c0 6.556-5.332 11.888-11.888 11.888-2.01 0-3.988-.511-5.741-1.483l-6.243 1.694zm6.086-5.366l.341.203c1.445.859 3.037 1.312 4.671 1.312 4.907 0 8.897-3.99 8.897-8.897 0-2.378-.925-4.614-2.606-6.294-1.68-1.681-3.916-2.607-6.291-2.607-4.907 0-8.897 3.99-8.897 8.897 0 2.129.743 4.141 2.096 5.829l.235.291-.983 3.591 3.68-.998z"/></svg>
+    </a>
+
+</body>
+</html>
